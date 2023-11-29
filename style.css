@@ -1,0 +1,15 @@
+/* Properties which are inherited by the child element*/
+body {
+  /*font-size and font-family are inherited properties*/
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Properties which are not inherited by the child element */
+body {
+  /*text decoration, sizing properties, transform properties are non inheritable*/
+  text-decoration: dotted;
+  height: 300px;
+  transform: rotate(90);
+}
